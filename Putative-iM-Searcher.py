@@ -111,7 +111,7 @@ def find_all_motifs(start_node,edge_dic,lis,result):
 
 
 
-#原始的是从右往左找所有的,_alliM都是更新的，这个版本没有loop长度的限制,checked
+
 #identifier_imotif_directedGraphic_noLoopConstrain_alliM+filter_all_comformation=identifier_imotif_directedGraphic_alliM
 def identifier_imotif_directedGraphic_noLoopConstrain_alliM(seq, n, GCtype):
     C_track_tmp = "["+GCtype+"]{" + str(n) + "}"
@@ -145,7 +145,7 @@ def identifier_imotif_directedGraphic_noLoopConstrain_alliM(seq, n, GCtype):
         result_all=result_all+result
     return result_all
 
-#有loop版本的限制checked
+
 def identifier_imotif_directedGraphic_alliM(seq, n, GCtype,loop_lower_bound,loop_higher_bound):
     C_track_tmp = "["+GCtype+"]{" + str(n) + "}"
     res = regex.finditer(C_track_tmp, seq, overlapped=True)
