@@ -8,4 +8,13 @@ We designed a general pattern for iM formation searching using directed graph tr
 ![putative iM search](https://github.com/YANGB1/Putative-iM-Searcher/assets/92316121/a2297cca-8e07-45fd-b8e0-71b85d813fb1)
 
 # Requirement
+The software is developed on Python 3.9. And four Python packages are needed.
+  os
+  argparse (developed on v1.1)
+  regex (developed on v2.5.109)
+  numpy (developed on v1.22.4)
+
+# Usage and parameters
+
+# Input and output
 
