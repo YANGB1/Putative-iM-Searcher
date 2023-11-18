@@ -9,12 +9,24 @@ We designed a general pattern for iM formation searching using directed graph tr
 
 # Requirement
 The software is developed on Python 3.9. And four Python packages are needed.
+  
   os
+  
   argparse (developed on v1.1)
+  
   regex (developed on v2.5.109)
+  
   numpy (developed on v1.22.4)
 
-# Usage and parameters
+# Usage
+The python script 'Putative-iM-Searcher.py' can be downloaded directly. The stored directory can be added to the ‘PATH’ environmental variable or the scripts with full path can be run alternatively. The help page can be checked by following command:
+``` 
+python3 Putative-iM-Searcher.py -h
+``` 
+Parameters can be configured according to the user's own needs.Here is an example:
+``` 
+python3 Putative-iM-Searcher.py --nuc_type DNA --sequence Athaliana_447_TAIR10.fa --overlapped 2 --greedy 2 --stem_short 3 --stem_long 4 --loop1_short 1 --loop1_long 12 --loop2_short 1 --loop2_long 12 --loop3_short 1 --loop3_long 12 --representative_conformation 3 --output_conformation 1 --output_folder C:\Users\yangbibo\Desktop\iM_pattern\Chr\iM-searcher
+``` 
 
 # Input and output
 
