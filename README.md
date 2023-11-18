@@ -8,7 +8,7 @@ We designed a general pattern for iM formation searching using directed graph tr
 ![putative iM search](https://github.com/YANGB1/Putative-iM-Searcher/assets/92316121/a2297cca-8e07-45fd-b8e0-71b85d813fb1)
 
 # Requirement
-The software is developed on Python 3.9. And four Python packages are needed.
+The software is developed on Python 3.9. And four Python packages are needed:
   
   os
   
@@ -29,4 +29,32 @@ python3 Putative-iM-Searcher.py --nuc_type DNA --sequence input.fa --overlapped 
 ``` 
 
 # Input and output
+The input sequences should be in fasta formation, for instance:
+
+\>test1
+
+CCCTCCCCCTCCCCTCCCTCCCCCCCCTCCCCTCCCTCCCTCCCCCCCCTCCCTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTCCCCCCCCCTCCTCCCCTCCCCCTCCCCTCCCTCCCTCC
+
+\>test2
+
+CCCCCTCCCCCTCCCCCTCCCCCTCCCCC
+
+\>test3
+
+CCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCC
+
+\>test4
+
+CCCCGACCCCAACCCCTCCCCCAACCCCTCCCC
+
+The output files are stored in the pre-set output folder.
+
+If --representative_conformation is set as 1, 'Putative_iM_Searcher_result_average_conformation.txt' includes conformation A of pre-set iM structures. 
+
+If --representative_conformation is set as 2, 'Putative_iM_Searcher_result_side_shorter_conformation.txt' includes conformation B of pre-set iM structures. 
+
+If --representative_conformation is set as 3, 'Putative_iM_Searcher_result_average_conformation.txt' and 'Putative_iM_Searcher_result_side_shorter_conformation.txt' include conformation A and B of pre-set iM structures, respectively. 
+
+If --output_conformation is set as 1, 'Putative_iM_Searcher_result_all_conformation.txt' includes all putative iMs.
+
 
