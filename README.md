@@ -15,7 +15,7 @@ pips install -r requirements.txt
 ``` 
 Putative-iM-Searcher can be installed by:
 ``` 
-pips install -r requirements.txt
+pip install Putative-iM-Searcher
 
 ```
 Or, the python script 'Putative-iM-Searcher.py' can be downloaded directly from Github. The stored directory can be added to the ‘PATH’ environmental variable or the scripts with full path can be run alternatively. 
