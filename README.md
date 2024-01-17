@@ -18,8 +18,10 @@ Putative-iM-Searcher (available at https://pypi.org/project/Putative-iM-Searcher
 pip3 install Putative-iM-Searcher
 
 ```
-Alternatively, the python script 'Putative-iM-Searcher.py' can be downloaded directly from Github. The stored directory can be added to the ‘PATH’ environmental variable or the scripts with full path can be run alternatively using command like: python3 Putative-iM-Searcher.py -h. 
-
+Alternatively, the python script 'Putative-iM-Searcher.py' can be downloaded directly from Github. The stored directory can be added to the ‘PATH’ environmental variable or the scripts with full path can be run alternatively using command like: 
+``` 
+python3 Putative-iM-Searcher.py -h. 
+``` 
 # Usage
 The help page can be checked by following command:
 ``` 
