@@ -18,16 +18,16 @@ Putative-iM-Searcher (available at https://pypi.org/project/Putative-iM-Searcher
 pip3 install Putative-iM-Searcher
 
 ```
-Alternatively, the python script 'Putative-iM-Searcher.py' can be downloaded directly from Github. The stored directory can be added to the ‘PATH’ environmental variable or the scripts with full path can be run alternatively. 
+Alternatively, the python script 'Putative-iM-Searcher.py' can be downloaded directly from Github. The stored directory can be added to the ‘PATH’ environmental variable or the scripts with full path can be run alternatively using command like: python3 Putative-iM-Searcher.py -h. 
 
 # Usage
 The help page can be checked by following command:
 ``` 
-python3 Putative-iM-Searcher.py -h
+Putative-iM-Searcher.py -h
 ``` 
 Parameters can be configured according to the user's own needs.Here is an example:
 ``` 
-python3 Putative-iM-Searcher.py --nuc_type DNA --sequence input.fa --overlapped 2 --greedy 2 --stem_short 3 --stem_long 5 --loop1_short 1 --loop1_long 12 --loop2_short 1 --loop2_long 12 --loop3_short 1 --loop3_long 12 --representative_conformation 3 --output_conformation 1 --output_folder output_path
+Putative-iM-Searcher.py --nuc_type DNA --sequence input.fa --overlapped 2 --greedy 2 --stem_short 3 --stem_long 5 --loop1_short 1 --loop1_long 12 --loop2_short 1 --loop2_long 12 --loop3_short 1 --loop3_long 12 --representative_conformation 3 --output_conformation 1 --output_folder output_path
 ``` 
 
 # Input and output
