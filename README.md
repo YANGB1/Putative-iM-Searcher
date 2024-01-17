@@ -61,4 +61,10 @@ If --representative_conformation is set as 3, 'Putative_iM_Searcher_result_avera
 
 If --output_conformation is set as 1, 'Putative_iM_Searcher_result_all_conformation.txt' includes all putative iMs.
 
-We provide the 'test.fa' in folder 'test'. 'test.fa' contain Chr4 and Chr5 of Arabidopsis thaliana. In 'test' folder, there are five example output files: 
+# Test
+We provide the 'test.fa' in zipped folder 'test'. 'test.fa' contain Chr4 and Chr5 of Arabidopsis thaliana. Besides, there are nine example output files. 
+
+After intalled the package with 'pip', the same output files as 'Overlapped_Greedy_conformationA.txt', 'Overlapped_Greedy_conformationB.txt', and 'All_conformation.txt' can be generated with the following command, 
+``` 
+Putative-iM-Searcher.py --sequence test.fa --overlapped 1 --greedy 1 --representative_conformation 3 --output_conformation 1
+``` 
