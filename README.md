@@ -11,12 +11,10 @@ We designed a general pattern for iM formation searching using directed graph tr
 The dependency packages can be installed by:
 ``` 
 pip3 install -r requirements.txt
-
 ``` 
 Putative-iM-Searcher (available at https://pypi.org/project/Putative-iM-Searcher/) can be installed by:
 ``` 
 pip3 install Putative-iM-Searcher
-
 ```
 Alternatively, the python script 'Putative-iM-Searcher.py' can be downloaded directly from Github. The stored directory can be added to the ‘PATH’ environmental variable or the scripts with full path can be run alternatively using command like: 
 ``` 
