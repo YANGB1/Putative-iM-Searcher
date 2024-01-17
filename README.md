@@ -61,4 +61,4 @@ If --representative_conformation is set as 3, 'Putative_iM_Searcher_result_avera
 
 If --output_conformation is set as 1, 'Putative_iM_Searcher_result_all_conformation.txt' includes all putative iMs.
 
-
+We provide the 'test.fa' in folder 'test'. 'test.fa' contain Chr4 and Chr5 of Arabidopsis thaliana. In 'test' folder, there are five example output files: 
