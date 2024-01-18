@@ -61,19 +61,19 @@ If --output_conformation is set as 1, 'Putative_iM_Searcher_result_all_conformat
 # Test
 We provide the 'test.fa' in zipped folder 'test'. 'test.fa' contain Chr4 and Chr5 of Arabidopsis thaliana. Besides, there are nine example output files. 
 
-After intalled the package with 'pip', the same output files as 'Overlapped_Greedy_conformationA.txt', 'Overlapped_Greedy_conformationB.txt', and 'All_conformation.txt' can be generated with the following command, 
+After intalled the package with 'pip', the same output files as 'Overlapped_Greedy_conformationA.txt', 'Overlapped_Greedy_conformationB.txt', and 'All_conformation.txt' can be generated with the following command:
 ``` 
 Putative-iM-Searcher.py --sequence test.fa --overlapped 1 --greedy 1 --representative_conformation 3 --output_conformation 1
 ``` 
-After intalled the package with 'pip', the same output files as 'Overlapped_NonGreedy_conformationA.txt', 'Overlapped_NonGreedy_conformationB.txt', and 'All_conformation.txt' can be generated with the following command, 
+After intalled the package with 'pip', the same output files as 'Overlapped_NonGreedy_conformationA.txt', 'Overlapped_NonGreedy_conformationB.txt', and 'All_conformation.txt' can be generated with the following command:
 ``` 
 Putative-iM-Searcher.py --sequence test.fa --overlapped 1 --greedy 2 --representative_conformation 3 --output_conformation 1
 ```
-After intalled the package with 'pip', the same output files as 'NonOverlapped_Greedy_conformationA.txt', 'NonOverlapped_Greedy_conformationB.txt', and 'All_conformation.txt' can be generated with the following command, 
+After intalled the package with 'pip', the same output files as 'NonOverlapped_Greedy_conformationA.txt', 'NonOverlapped_Greedy_conformationB.txt', and 'All_conformation.txt' can be generated with the following command:
 ``` 
 Putative-iM-Searcher.py --sequence test.fa --overlapped 2 --greedy 1 --representative_conformation 3 --output_conformation 1
 ```
-After intalled the package with 'pip', the same output files as 'NonOverlapped_NonGreedy_conformationA.txt', 'NonOverlapped_NonGreedy_conformationB.txt', and 'All_conformation.txt' can be generated with the following command, 
+After intalled the package with 'pip', the same output files as 'NonOverlapped_NonGreedy_conformationA.txt', 'NonOverlapped_NonGreedy_conformationB.txt', and 'All_conformation.txt' can be generated with the following command:
 ``` 
 Putative-iM-Searcher.py --sequence test.fa --overlapped 2 --greedy 2 --representative_conformation 3 --output_conformation 1
 ``` 
