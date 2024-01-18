@@ -7,7 +7,7 @@ We designed a general pattern for iM formation searching using directed graph tr
 
 ![putative iM search](https://github.com/YANGB1/Putative-iM-Searcher/assets/92316121/a2297cca-8e07-45fd-b8e0-71b85d813fb1)
 
-# Installation
+# Installation and Usage
 The dependency packages can be installed by:
 ``` 
 pip3 install -r requirements.txt
@@ -20,12 +20,11 @@ Alternatively, the python script 'Putative-iM-Searcher.py' can be downloaded dir
 ``` 
 python3 Putative-iM-Searcher.py -h. 
 ``` 
-# Usage
-The help page can be checked by following command:
+After intalled the package with 'pip', the help page can be checked by following command:
 ``` 
 Putative-iM-Searcher.py -h
 ``` 
-Parameters can be configured according to the user's own needs.Here is an example:
+Parameters can be configured according to the user's own needs. Here is an example:
 ``` 
 Putative-iM-Searcher.py --nuc_type DNA --sequence input.fa --overlapped 2 --greedy 2 --stem_short 3 --stem_long 5 --loop1_short 1 --loop1_long 12 --loop2_short 1 --loop2_long 12 --loop3_short 1 --loop3_long 12 --representative_conformation 3 --output_conformation 1 --output_folder output_path
 ``` 
